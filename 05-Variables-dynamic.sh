@@ -1,4 +1,6 @@
 #!/bin/bash
 # the line is commented
 echo "please enter your name::"
-read USERNAMR
+read USERNAME
+
+echo "USER NAME entered is ::$USERNAME"
