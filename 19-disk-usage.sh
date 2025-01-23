@@ -18,3 +18,7 @@ done <<< $DISK_USAGE
 echo -e "Message: $MSG"
 
  echo "$MSG" | mutt -s "High Disk Usage" gravi3814.devops@gmail.com
+
+ else
+    echo "Disk usage is within acceptable limits."
+fi
